@@ -1,0 +1,9 @@
+-----------> REACT <-----------
+
+What Is React?
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+It lets you compose complex UIs from small and isolated pieces of code called “components”.
+
+It is a client side JavaScript library
+It's all about building modern, reactive user interfaces for the web
+It is declarative, component-focused approach
