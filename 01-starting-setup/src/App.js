@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 import React from "react";
 
 const welcome = "Welcome to ReactJS";
@@ -41,10 +42,15 @@ function App() {
   //   React.createElement(Expenses, { items: expenses })
   // );
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+  };
   //Note: The Below code shows a JSX - JavaScript XML.
   return (
     <div>
       <h2>{welcome}. Let's get started!</h2>
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
